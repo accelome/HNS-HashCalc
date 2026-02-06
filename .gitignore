@@ -1,0 +1,5 @@
+/target
+/test_dir
+test_exec.sh
+.idea
+.vscode

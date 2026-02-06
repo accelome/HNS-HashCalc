@@ -1,0 +1,26 @@
+[package]
+name = "hash_calculator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anndata = "0.6.2"
+anndata-hdf5 = "0.5.2"
+#gxhash = { version = "3.5.0"}
+anyhow = "1.0.100"
+clap = {version = "^4.5.40", features = ["derive"]}
+colored = "3.0.0"
+ndarray = "0.16"
+polars = { version = "0.45.1", features = [
+    "lazy",
+    "decompress-fast",
+    "ndarray",
+    "dtype-full",
+    "parquet"
+] }
+single_rust = "0.5.8"
+nalgebra-sparse="0.11"
+sha2 = "0.10.9"
+num-traits = "0.2.19"
+rayon = "1.11.0"
+hex = "0.4.3"
